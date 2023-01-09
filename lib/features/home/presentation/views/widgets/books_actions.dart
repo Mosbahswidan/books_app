@@ -31,6 +31,7 @@ class BookActions extends StatelessWidget {
             textSize: 1.88.h,
             onPressed: () {
               launchCustomUr(context, bookModel.volumeInfo.previewLink);
+              print("hiii");
             },
             backgroundColor: const Color(0xFFEF8262),
             textColor: Colors.white,
