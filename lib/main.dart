@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
           return MaterialApp.router(
             routerConfig: AppRouter.router,
             debugShowCheckedModeBanner: false,
-            title: 'Flutter Demo',
+            title: 'Bookly',
             theme: ThemeData.dark().copyWith(
               scaffoldBackgroundColor: kPrimaryColor,
               textTheme:
