@@ -11,5 +11,6 @@ class Observer extends BlocObserver {
   void onChange(BlocBase bloc, Change change) {
     super.onChange(bloc, change);
     print(change);
+    //print observer here
   }
 }
